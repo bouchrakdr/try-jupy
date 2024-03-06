@@ -1,0 +1,78 @@
+<http://example.org/ontology/Organization/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/1> <http://example.org/ontology/foundedIn> "2001-09-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/1> <http://example.org/ontology/name> "University A".
+<http://example.org/ontology/Organization/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/2> <http://example.org/ontology/foundedIn> "1998-05-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/2> <http://example.org/ontology/partOf> <1>.
+<http://example.org/ontology/Organization/2> <http://example.org/ontology/name> "Research Institute B".
+<http://example.org/ontology/Organization/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/3> <http://example.org/ontology/foundedIn> "2005-03-15"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/3> <http://example.org/ontology/name> "Institute C".
+<http://example.org/ontology/Organization/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/4> <http://example.org/ontology/foundedIn> "1999-07-08"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/4> <http://example.org/ontology/name> "University D".
+<http://example.org/ontology/Organization/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/5> <http://example.org/ontology/foundedIn> "2010-02-20"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/5> <http://example.org/ontology/partOf> <2>.
+<http://example.org/ontology/Organization/5> <http://example.org/ontology/name> "Research Lab E".
+<http://example.org/ontology/Organization/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/6> <http://example.org/ontology/foundedIn> "2016-05-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/6> <http://example.org/ontology/partOf> <2>.
+<http://example.org/ontology/Organization/6> <http://example.org/ontology/name> "Tech Incubator F".
+<http://example.org/ontology/Organization/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/7> <http://example.org/ontology/foundedIn> "2003-11-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/7> <http://example.org/ontology/name> "Medical Institute G".
+<http://example.org/ontology/Organization/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/8> <http://example.org/ontology/foundedIn> "1992-06-17"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/8> <http://example.org/ontology/partOf> <4>.
+<http://example.org/ontology/Organization/8> <http://example.org/ontology/name> "Engineering College H".
+<http://example.org/ontology/Organization/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/9> <http://example.org/ontology/foundedIn> "2018-09-09"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/9> <http://example.org/ontology/name> "Data Science Institute I".
+<http://example.org/ontology/Organization/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/10> <http://example.org/ontology/foundedIn> "2014-12-12"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/10> <http://example.org/ontology/partOf> <5>.
+<http://example.org/ontology/Organization/10> <http://example.org/ontology/name> "Innovation Center J".
+<http://example.org/ontology/Organization/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/11> <http://example.org/ontology/foundedIn> "2007-04-22"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/11> <http://example.org/ontology/name> "Environmental Research K".
+<http://example.org/ontology/Organization/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Organization>.
+<http://example.org/ontology/Organization/12> <http://example.org/ontology/foundedIn> "2001-10-30"^^<http://www.w3.org/2001/XMLSchema#date>.
+<http://example.org/ontology/Organization/12> <http://example.org/ontology/partOf> <3>.
+<http://example.org/ontology/Organization/12> <http://example.org/ontology/name> "Biotech Lab L".
+<http://example.org/ontology/Researcher/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/1> <http://example.org/ontology/partOf> <1>.
+<http://example.org/ontology/Researcher/1> <http://example.org/ontology/name> "Dr. Alice Smith".
+<http://example.org/ontology/Researcher/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/2> <http://example.org/ontology/partOf> <2>.
+<http://example.org/ontology/Researcher/2> <http://example.org/ontology/name> "Dr. Bob Johnson".
+<http://example.org/ontology/Researcher/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/3> <http://example.org/ontology/partOf> <3>.
+<http://example.org/ontology/Researcher/3> <http://example.org/ontology/name> "Dr. Eve Martin".
+<http://example.org/ontology/Researcher/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/4> <http://example.org/ontology/partOf> <4>.
+<http://example.org/ontology/Researcher/4> <http://example.org/ontology/name> "Dr. Frank Hall".
+<http://example.org/ontology/Researcher/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/5> <http://example.org/ontology/partOf> <2>.
+<http://example.org/ontology/Researcher/5> <http://example.org/ontology/name> "Dr. Gina Watson".
+<http://example.org/ontology/Researcher/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/6> <http://example.org/ontology/partOf> <5>.
+<http://example.org/ontology/Researcher/6> <http://example.org/ontology/name> "Dr. Henry Brooks".
+<http://example.org/ontology/Researcher/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/7> <http://example.org/ontology/partOf> <1>.
+<http://example.org/ontology/Researcher/7> <http://example.org/ontology/name> "Dr. Ida Adams".
+<http://example.org/ontology/Researcher/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/8> <http://example.org/ontology/partOf> <6>.
+<http://example.org/ontology/Researcher/8> <http://example.org/ontology/name> "Dr. Jack Turner".
+<http://example.org/ontology/Researcher/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/9> <http://example.org/ontology/partOf> <7>.
+<http://example.org/ontology/Researcher/9> <http://example.org/ontology/name> "Dr. Karen Young".
+<http://example.org/ontology/Researcher/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/10> <http://example.org/ontology/partOf> <8>.
+<http://example.org/ontology/Researcher/10> <http://example.org/ontology/name> "Dr. Leo Scott".
+<http://example.org/ontology/Researcher/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/11> <http://example.org/ontology/partOf> <9>.
+<http://example.org/ontology/Researcher/11> <http://example.org/ontology/name> "Dr. Mia Clark".
+<http://example.org/ontology/Researcher/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/Researcher>.
+<http://example.org/ontology/Researcher/12> <http://example.org/ontology/partOf> <10>.
+<http://example.org/ontology/Researcher/12> <http://example.org/ontology/name> "Dr. Noah Allen".
